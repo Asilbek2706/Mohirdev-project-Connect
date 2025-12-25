@@ -1,0 +1,53 @@
+@media(min-width:1400px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+/* Navigation menu */
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:active,
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+/* Home section styles */
+.home{
+    background-color: #f0f5f9;
+    padding: 150px 0 100px 0;
+}
+
+/* About section styles */
+.about__card-1{
+    background-color: #fff2e5;
+}
+
+.about__card-2{
+    background-color: #f8f9fa;
+}
+
+.about__card-3{
+    background-color: #f0f5f9;
+}
+
+about__card-image{
+    width: 80px;
+}
+
+/* Features section styles */
+.features__container{
+    background-color: #f0f5f9;
+}
+
+/* Results section styles */
+results__card-image{
+    width: 80px;
+}
