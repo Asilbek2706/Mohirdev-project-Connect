@@ -1,0 +1,19 @@
+@use "../abstract/variables" as vars;
+
+.about__card-1{
+    background-color: vars.$card-1__color;
+}
+
+.about__card-2{
+    background-color: vars.$card-2__color;
+}
+
+.about__card-3{
+    background-color: vars.$card-3__color;
+}
+
+about__card-image{
+    width: 80px;
+}
+
+ 

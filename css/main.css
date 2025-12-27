@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.grey {
+  color: #5c5c5c !important;
+}
+
+.dark {
+  color: #3a3a47 !important;
+}
+
+.light-grey {
+  color: #818198 !important;
+}
+
+.dark-blue {
+  color: #383B61 !important;
+}
+
+.blue-text {
+  color: #3498db !important;
+}
+
+.green-text {
+  color: #21bf73 !important;
+}
+
+.bg-primary-custom {
+  background-color: #f0f5f9 !important;
+}
+
+.btn-blue-custom {
+  background-color: #3498db !important;
+  color: #ffffff;
+}
+
+.btn-success-custom {
+  background-color: #21bf73 !important;
+}
+
+html, body {
+  font-family: "Montserrat", "sans-serif";
+}
+
+h1, h2, h3, h4, h5, h6,
+p {
+  font-family: "Montserrat", "sans-serif";
+}
+
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show > .nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 20px;
+}
+.navbar-light .navbar-nav .nav-link.btn {
+  padding: 0 20px;
+}
+.form-control-custom {
+  color: #222222;
+  height: 45px;
+  border: 0;
+  border-radius: 5px 0 0 5px;
+  background-color: #F0F5F8;
+  outline: none;
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.btn {
+  padding: 0 20px;
+  line-height: 38px;
+}
+
+.btn-blue-custom {
+  border: 2px solid #3498db !important;
+  color: #ffffff;
+}
+
+.btn-blue-custom:hover {
+  background-color: #3498db !important;
+  color: #ffffff;
+}
+
+.btn-success-custom {
+  border: 2px solid #21bf73;
+  background-color: #21bf73;
+  color: #ffffff;
+}
+
+.btn-success-custom:hover {
+  background-color: #21bf73;
+  color: #ffffff;
+}
+
+.home {
+  padding: 150px 0 100px 0;
+  background-color: #f0f5f9 !important;
+}
+
+.about__card-1 {
+  background-color: #fff2e5;
+}
+
+.about__card-2 {
+  background-color: #f8f9fa;
+}
+
+.about__card-3 {
+  background-color: #f0f5f9;
+}
+
+about__card-image {
+  width: 80px;
+}
+
+.features__container {
+  background-color: #f0f5f9;
+}
+
+.pricing__card {
+  background-color: #f0f5f9;
+}
+
+.reviews__container {
+  padding: 100px 50px;
+  background-color: #f0f5f9;
+}
+
+.results__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.results__card-image {
+  height: 80px;
+  width: auto;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+.results__card h3 {
+  margin-top: auto;
+}
+
+.faq__container {
+  padding: 100px 50px;
+  background-color: #f0f5f9;
+}
+
+/*# sourceMappingURL=main.css.map */

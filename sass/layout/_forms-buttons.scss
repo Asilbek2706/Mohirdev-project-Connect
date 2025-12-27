@@ -1,0 +1,31 @@
+@use "../abstract/variables" as var;
+
+.btn {
+    padding: 0 20px;
+    line-height: 38px;
+}
+
+.btn-blue-custom {
+    border: 2px solid var.$text-blue-custom;
+    color: var.$text-color;
+}
+
+.btn-blue-custom {
+    &:hover {
+        background-color: var.$btn-blue-custom;
+        color: var.$text-color;
+    }
+}
+
+.btn-success-custom {
+    border: 2px solid #21bf73;
+    background-color: #21bf73;
+    color: var.$text-color;
+}
+
+.btn-success-custom {
+    &:hover {
+        background-color: #21bf73;
+        color: var.$text-color;
+    }
+}

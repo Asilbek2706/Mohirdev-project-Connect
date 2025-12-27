@@ -1,0 +1,37 @@
+@use "../abstract/variables";
+
+.grey {
+    color: variables.$text-grey-custom;
+}
+
+.dark {
+    color: variables.$text-dark-custom;
+}
+
+.light-grey {
+    color: variables.$text-light-grey-custom;
+}
+
+.dark-blue {
+    color: variables.$text-dark-blue-custom;
+}
+
+.blue-text {
+    color: variables.$text-blue-custom;
+}
+
+.green-text {
+    color: variables.$text-green-custom;
+}
+
+.bg-primary-custom {
+    background-color: variables.$bg-primary-custom;
+}
+
+.btn-blue-custom {
+    background-color: variables.$btn-blue-custom;
+    color: variables.$text-color;;
+} 
+.btn-success-custom {
+    background-color: variables.$btn-success-custom;
+} 

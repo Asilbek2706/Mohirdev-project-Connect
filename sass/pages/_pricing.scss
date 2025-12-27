@@ -1,0 +1,5 @@
+@use "../abstract/variables";
+
+.pricing__card{
+    background-color: variables.$card-3__color;
+}

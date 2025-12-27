@@ -1,0 +1,26 @@
+// O'zgaruvchilar (ixtiyoriy, lekin tavsiya etiladi
+@use "../abstract/variables" as vars;
+
+.navbar-brand {
+    font-family: vars.$font-montserrat;
+    font-weight: vars.$font-medium;
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            font-family: vars.$font-montserrat;
+            font-weight: vars.$font-medium;
+            font-size: 14px;
+            padding: 10px 20px;
+
+            &.btn {
+                padding: 0 20px;
+            }
+        }
+
+        .show > .nav-link {
+            @extend .nav-link;
+        }
+    }
+}

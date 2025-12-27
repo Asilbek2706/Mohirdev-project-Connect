@@ -1,0 +1,6 @@
+@use "../abstract/variables";
+
+.reviews__container{
+    padding: 100px 50px;
+    background-color: variables.$card-3__color;
+}
